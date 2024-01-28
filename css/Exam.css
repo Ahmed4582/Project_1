@@ -1,0 +1,368 @@
+
+
+/*start Header*/
+.head {
+    background-image: url(Pictures__Css/bg.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.head .layer{
+    background-color: rgba(0, 0, 0, 0.723);
+}
+h1{
+    font-size: 3rem;
+}
+ h1::after {
+    content: "";
+    font-size: 3.5rem;
+    font-weight: 200;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: alternate infinite 7s ahmed;
+}
+@keyframes ahmed {
+    0% {
+      content:"Free";
+    }
+    2% {
+      content:"Fre|";
+    }
+    4% {
+      content:"Fr";
+    }
+    6% {
+      content:"F";
+    }
+    8% {
+      content:"|";
+    }
+    10% {
+      content:"";
+    }
+    12% {
+      content:"S|";
+    }
+    14% {
+      content:"Se";
+    }
+    16% {
+      content:"Sen|";
+    }
+    18% {
+      content:"Seni";
+    }
+    20% {
+      content:"Senio|";
+    }
+    22% {
+      content:"Senior";
+    }
+    24% {
+      content:"Senior|";
+    }
+    26% {
+      content:"SeniorF";
+    }
+    28% {
+      content:"SeniorFr|";
+    }
+    30% {
+      content:"SeniorFro";
+    }
+    32% {
+      content:"SeniorFron|";
+    }
+    34% {
+      content:"SeniorFront";
+    }
+  
+    36% {
+      content:"SeniorFront|";
+    }
+    38% {
+      content:"SeniorFronte";
+    }
+    40% {
+      content:"SeniorFronten|";
+    }
+    42% {
+      content:"SeniorFrontend";
+    }
+    44% {
+      content:"SeniorFront|";
+    }
+    46% {
+      content:"SeniorFron";
+    }
+    48% {
+      content:"SeniorFro|";
+    }
+    50% {
+      content:"SeniorFr";
+    }
+    52% {
+      content:"SeniorF|";
+    }
+    54% {
+      content:"Senior";
+    }
+    56% {
+      content:"Senior|";
+    }
+    58% {
+      content:"";
+    }
+    60% {
+      content:"A|";
+    }
+    62% {
+      content:"AH";
+    }
+    64% {
+      content:"AHM|";
+    }
+    66% {
+      content:"AHME";
+    }
+    68% {
+      content:"AHMED|";
+    }
+    70% {
+      content:"AHMED";
+    }
+    72% {
+      content:"AHMEDN|";
+    }
+    74% {
+      content:"AHMEDNA";
+    }
+    76% {
+      content:"AHMEDNAS|";
+    }
+    78% {
+      content:"AHMEDNASE";
+    }
+    80% {
+      content:"AHMEDNASER|";
+    }
+    82% {
+      content:"AHMEDNASSER";
+    }
+    84% {
+      content:"AHMEDNASER|";
+    }
+    86% {
+      content:"AHMEDNASE";
+    }
+    88% {
+      content:"AHMEDNAS|";
+    }
+    90% {
+      content:"AHMEDNA";
+    }
+    92% {
+      content:"AHMEDN|";
+    }
+    94% {
+      content:"AHMED";
+    }
+    96% {
+      content:"AHMED|";
+    }
+    98% {
+      content:"AHME";
+    }
+    100% {
+      content:"AHM|";
+    }
+  }
+  .icons{
+    height: 30px;
+    width: 30px;
+    border-radius: 150px;
+    background-color: rgba(0, 0, 0, 0.737);
+}
+/*end Header*/
+/*start About*/
+.text-about span{
+    color: #6C757D;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.bt-1:hover {
+  background-color: white;
+  color: #cad6ec !important;
+}
+.bt-2:hover{
+  background-color: black;
+  color: white !important;
+}
+/*end About*/
+/*start Servies*/
+.servies{
+  background-color: #F7F7F7;
+}
+ h2{
+  font-size: 3rem;
+  font-weight: 900;
+}
+.servies .icons {
+  width: 70px;
+  height: 70px;
+  background-color: #f7f7f7;
+  border-radius: 150px;
+  transition: 0.5s all;
+}
+.parent-icons i{
+  font-size: 1.5rem;
+}
+.contant-servies{
+  border-radius: 8px;
+}
+.parent-icons  i:hover{
+  background-color: black;
+  color: white;
+}
+/*end Servies*/
+/*start Portfolio*/
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: white;
+  border-bottom: black 2px solid;
+  color: black;
+}
+.nav-pills .nav-link {
+  color: black;
+}
+.layer_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background-color: white;
+  transition: 1s all;
+  -webkit-transition: 1s all;
+  -moz-transition: 1s all;
+  -ms-transition: 1s all;
+  -o-transition: 1s all;
+}
+.smoll_parent_image:hover .layer_image {
+  opacity: 1;
+  border: 6px solid #d7d5d6;
+}
+.parent_smoll_icons {
+  width: 35px;
+  height: 35px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.parent_smoll_icons:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+.parent_smoll_icons i:hover {
+  color: black !important;
+}
+/*end Portfolio*/
+/*start Testimonials*/
+.testimonials {
+  background-color: #f7f7f7;
+}
+.testeemonial {
+  position: unset;
+}
+.testeemonial [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border: unset;
+  background-color: unset;
+  background-color: #869791;
+  border-radius: 50px;
+}
+/*end Testimonials*/
+/*start Blog*/
+.blog {
+  overflow: hidden;
+  background-color: #f7f7f7;
+}
+.blog h2 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.blog a {
+  color: black;
+}
+h5 {
+  font-weight: 800;
+}
+h5 a {
+  text-decoration: none;
+}
+span a {
+  text-decoration: underline;
+}
+.oll_paernt_image3 {
+  overflow: hidden;
+}
+.parent_image3 {
+  transition: 1s all;
+}
+.oll_paernt_image3:hover .parent_image3 {
+  scale: 1.3;
+}
+/*end Blog*/
+/*start Contact Us*/
+.contact h5 {
+  font-weight: 500;
+}
+.contact i {
+  font-size: 1.5rem;
+}
+.child-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: #f7f7f7;
+  border-radius: 150px;
+}
+.parent_icons:hover .child-icons  {
+  background-color: black;
+  color: white;
+}
+.lapel_input_text {
+  width: 90%;
+}
+.lapel_input_text input {
+  background-color: #f4f4f4;
+  border: none;
+  border-radius: 5px;
+}
+.lapel_input_text textarea {
+  background-color: #f4f4f4;
+  border: none;
+  border-radius: 5px;
+}
+.contact button {
+  border-radius: 6px;
+  padding: 8px 40px;
+  transition: 0.5s all;
+}
+.contact button:hover {
+  background-color: white;
+  color: #748182;
+  border: 1px solid #748182b9;
+}
+/*end Contact Us*/
